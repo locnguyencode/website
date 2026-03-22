@@ -1,3 +1,6 @@
+alert('Chào mừng bạn đến với web của tôi');
+alert('Web rất đơn giản còn sơ sài');
+alert('Chỉ bấm được chỗ đăng nhập thôi,chứ không đăng nhập được đâu');
 const wrapper = document.querySelector(".wrapper");
 const loginLink = document.querySelector(".login-link");
 const registerLink = document.querySelector(".register-link");
