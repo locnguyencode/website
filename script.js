@@ -1,7 +1,13 @@
 alert('Chào mừng bạn đến với web của tôi');
 alert('Web rất đơn giản còn sơ sài');
 alert('Chỉ bấm được mỗi chỗ đăng nhập thôi');
-prompt('Xác nhận bạn đủ tuổi(>18):');
+document.addEventListener(
+  "click",
+  function () {
+    prompt("Xác nhận bạn đủ tuổi(>18):");
+  },
+  { once: true },
+);
 setTimeout(function() {
 alert('Coi quài,mới làm còn xấu lắm');
 },100000)
