@@ -4,7 +4,7 @@ alert('Chỉ bấm được mỗi chỗ đăng nhập thôi');
 document.addEventListener(
   "click",
   function () {
-    prompt("Xác nhận bạn đủ tuổi(>18):");
+    prompt("Xác nhận bạn đủ tuổi(>=18):");
   },
   { once: true },
 );
